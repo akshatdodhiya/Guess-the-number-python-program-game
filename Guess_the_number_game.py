@@ -13,6 +13,7 @@ while(True):
 
     if(tries==0):
         print("\n!! GAME OVER !! :( \n")
+        print("The correct number was", n)
         break
 
     print("You have ", tries, " tries left !!\n")
